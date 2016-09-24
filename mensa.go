@@ -31,7 +31,7 @@ func main() {
 		})
 	} else {
 		goalfred.Add(goalfred.Item{
-			Title: fmt.Sprintf("Heute scheint's in der Mensa '%s' wohl nichts zu geben 😢", canteenName),
+			Title: fmt.Sprintf("Heute gibt's leider nichts @ %s 😢", canteenName),
 			Valid: &invalid,
 		})
 		return
