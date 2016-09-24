@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>io.kilian.alfred_mensa</string>
+	<key>connections</key>
+	<dict>
+		<key>61E8425D-0197-42D5-B808-1086B6EDB3E1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8FB148CE-6CFC-4137-B1DB-FB9BE551F3D7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Kilian Koeltzsch</string>
+	<key>description</key>
+	<string>Was gibt's heute in der Mensa?</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Mensa</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8FB148CE-6CFC-4137-B1DB-FB9BE551F3D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>mensa</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Suche...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>mensa</string>
+				<key>subtext</key>
+				<string>Heute verfügbare Speisen in den Mensen des Studentenwerks Dresden</string>
+				<key>title</key>
+				<string>Was gibt's heute in der Mensa?</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>61E8425D-0197-42D5-B808-1086B6EDB3E1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>STANDARD_MENSA ist die Mensa, die bei Eingabe von "mensa" ohne weiteres Argument geladen wird. Optional kann auch nach weiteren Mensen gesucht werden, z.B. "mensa siedepunkt".
+
+Ist STUDENTENPREIS auf 1 gesetzt, wird der Preis für Studenten (insofern vorhanden) für Speisen angezeigt. Andernfalls der für Mitarbeiter.</string>
+	<key>uidata</key>
+	<dict>
+		<key>61E8425D-0197-42D5-B808-1086B6EDB3E1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>8FB148CE-6CFC-4137-B1DB-FB9BE551F3D7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>STANDARD_MENSA</key>
+		<string>Alte Mensa</string>
+		<key>STUDENTENPREIS</key>
+		<string>1</string>
+	</dict>
+	<key>version</key>
+	<string>0.1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/kiliankoe/alfred_mensa</string>
+</dict>
+</plist>
