@@ -14,6 +14,10 @@ There's two settings you can change from within Alfred. Select the workflow in t
 
 The other setting lets you choose which price to display. Default is the student price, but by changing that you can have the employee price displayed instead.
 
+### Credits
+
+Icon is the [Studentenwerk Dresden](http://www.studentenwerk-dresden.de) logo.
+
 ### Other
 
 Hitting return on a single meal will open its detail page. Holding ⌘ and hitting return will open only an image of the selected meal in your browser. 
