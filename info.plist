@@ -33,25 +33,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>8FB148CE-6CFC-4137-B1DB-FB9BE551F3D7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>argumenttype</key>
@@ -92,6 +73,25 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8FB148CE-6CFC-4137-B1DB-FB9BE551F3D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>STANDARD_MENSA ist die Mensa, die bei Eingabe von "mensa" ohne weiteres Argument geladen wird. Optional kann auch nach weiteren Mensen gesucht werden, z.B. "mensa siedepunkt".
@@ -122,7 +122,7 @@ Ist STUDENTENPREIS auf 1 gesetzt, wird der Preis für Studenten (insofern vorhan
 		<string>1</string>
 	</dict>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>0.1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/kiliankoe/alfred_mensa</string>
 </dict>
