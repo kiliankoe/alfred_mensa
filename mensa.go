@@ -39,13 +39,10 @@ func main() {
 
 	for _, meal := range meals {
 		item := goalfred.Item{
-			Title:    formatTitle(meal),
-			Subtitle: meal.PageURL,
-			Arg:      meal.PageURL,
-		}
-		item.Mod.Cmd = &goalfred.ModContent{
-			Arg:      meal.ImageURL,
-			Subtitle: "Bild der Mahlzeit öffnen (möglicherweise nur ein Platzhalter)",
+			Title:     formatTitle(meal),
+			Subtitle:  meal.PageURL,
+			Arg:       meal.PageURL,
+			Quicklook: meal.ImageURL,
 		}
 		goalfred.Add(item)
 	}
